@@ -35,6 +35,11 @@ Currently there are two functions to get the valid properties:
 
 The included scraper dives into each of the property links on the Describe landing page and extracts the individual properties for use in the Describer class.  This is how they were initially scraped from the resource pages and how the full list can be updated with future changes.  The `properties_all.json` file is used by the class to test with.
 
+##### Dependencies
+
+- ArcGIS for Desktop ([ArcPy](http://resources.arcgis.com/en/help/main/10.1/index.html#//000v000000v7000000))
+- The scraper uses [Beautiful Soup](http://www.crummy.com/software/BeautifulSoup/)
+
 ##### Issues
 
 1. On the main [Describe (arcpy)](http://resources.arcgis.com/en/help/main/10.1/index.html#/Describe/018v00000066000000/) page, there is a disconnect between the main properties list and the list in the navigation pane.  You will notice a few folders in the nav that don't exist in the main list where the urls were scraped from.  Therefore, the current `properties_all.json` file does not know of properties in the *"Network Analyst Layer properties"* and *"Network Dataset properties"* folders.
