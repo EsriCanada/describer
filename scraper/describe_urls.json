@@ -1,0 +1,280 @@
+{
+  "properties": [
+    {
+      "property": {
+        "text": "Describe Object Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v00000013000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "ArcInfo Workstation Item Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v0000001r000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "ArcInfo Workstation Table Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v0000004w000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "CAD Drawing Dataset Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v0000000s000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "CAD FeatureClass Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v0000005s000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "Cadastral Fabric Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v0000008p000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "Coverage FeatureClass Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v0000005v000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "Coverage Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v00000057000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "Dataset Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v00000065000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "dBASE Table Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v0000005m000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "Editor Tracking Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v0000008m000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "FeatureClass Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v00000011000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "File Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v0000003t000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "Folder Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v0000000z000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "GDB FeatureClass Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v0000005t000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "GDB Table Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v00000052000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "Geometric Network Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v0000003p000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "LAS Dataset Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v0000008t000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "Layer Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v00000063000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "Map Document Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v00000029000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "Mosaic Dataset Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v0000001z000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "Network Analyst Layer Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v00000058000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "Network Dataset Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v0000002p000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "Prj File Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v0000003s000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "Raster Band Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v00000036000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "Raster Catalog Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v0000006r000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "Raster Dataset Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v0000000t000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "RecordSet and FeatureSet Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v0000008w000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "RelationshipClass Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v0000002n000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "RepresentationClass Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v0000001w000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "Schematic Dataset Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v00000026000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "Schematic Diagram Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v0000004n000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "Schematic Folder Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v00000015000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "SDC FeatureClass Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v00000069000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "Shapefile FeatureClass Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v00000031000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "Table Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v0000003m000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "TableView Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v0000000n000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "Text File Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v00000020000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "Tin Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v0000000r000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "Tool Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v00000068000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "Toolbox Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v00000051000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "Topology Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v00000054000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "VPF Coverage Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v0000006m000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "VPF FeatureClass Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v0000005r000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "VPF Table Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v0000004r000000.htm"
+      }
+    },
+    {
+      "property": {
+        "text": "Workspace Properties",
+        "href": "http://resources.arcgis.com/en/help/main/10.1/018v/018v0000002v000000.htm"
+      }
+    }
+  ]
+}
