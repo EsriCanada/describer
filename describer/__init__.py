@@ -24,7 +24,7 @@ For more information and to contribute see the GitHub repository
 """
 
 __author__ = "Adam Marinelli"
-__version__ = "0.1"
+__version__ = "0.2"
 
 __all__ = ['Describer']
 
@@ -43,16 +43,15 @@ class Desc():
         self.property_list = json.loads(open(os.path.join(os.path.dirname(__file__), "properties_all.json"), "r").read())
         self.property_array = self.property_list['properties']
         self.valid_prop = []
-        self.valid_prop_dict = {}
 
-    def find_properties(self, desc, key_val=False):
-        if not key_val:
-            for prop in self.property_array:
-                if hasattr(desc, prop):
-                    self.valid_prop.append(prop)
-            return self.valid_prop
-        else:
-            for prop in self.property_array:
-                if hasattr(desc, prop):
-                    self.valid_prop_dict[prop] = getattr(desc, prop)
-            return self.valid_prop_dict
+    def find_properties(self, desc):
+        self.valid_prop = []
+        for prop in self.property_array:
+            if hasattr(desc, prop):
+                self.valid_prop.append(prop)
+        return self.valid_prop
+
+    def pretty_properties(self, desc):
+        props = self.find_properties(desc)
+        for prop in props:
+            print "{0} : {1}".format(prop, getattr(desc, prop))
