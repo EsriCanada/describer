@@ -24,10 +24,11 @@ For more information and to contribute see the GitHub repository
 """
 
 __author__ = "Adam Marinelli"
-__version__ = "0.2"
+__version__ = "1.0"
 
 __all__ = ['Describer']
 
+import arcpy
 import json
 import os
 
@@ -42,14 +43,18 @@ class Desc():
         # for all objects.  Can be updated using auxillary script.
         self.property_list = json.loads(open(os.path.join(os.path.dirname(__file__), "properties_all.json"), "r").read())
         self.property_array = self.property_list['properties']
-        self.valid_prop = []
+        self.valid_props = []
+
+    def describe(desc):
+        return arcpy.Describe(desc)
 
     def find_properties(self, desc):
-        self.valid_prop = []
+        desc_obj = self.describe(desc)
+        self.valid_props = []
         for prop in self.property_array:
-            if hasattr(desc, prop):
-                self.valid_prop.append(prop)
-        return self.valid_prop
+            if hasattr(desc_obj, prop):
+                self.valid_props.append(prop)
+        return self.valid_props
 
     def pretty_properties(self, desc):
         props = self.find_properties(desc)
