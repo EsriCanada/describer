@@ -44,19 +44,21 @@ class Desc():
         self.property_list = json.loads(open(os.path.join(os.path.dirname(__file__), "properties_all.json"), "r").read())
         self.property_array = self.property_list['properties']
         self.valid_props = []
+        self.desc_obj = {}
 
-    def describe(desc):
-        return arcpy.Describe(desc)
+    def describe(self, desc):
+        self.desc_obj = arcpy.Describe(desc)
+        return
 
     def find_properties(self, desc):
-        desc_obj = self.describe(desc)
+        self.describe(desc)
         self.valid_props = []
         for prop in self.property_array:
-            if hasattr(desc_obj, prop):
+            if hasattr(self.desc_obj, prop):
                 self.valid_props.append(prop)
         return self.valid_props
 
     def pretty_properties(self, desc):
-        props = self.find_properties(desc)
-        for prop in props:
-            print "{0} : {1}".format(prop, getattr(desc, prop))
+        self.find_properties(desc)
+        for prop in self.valid_props:
+            print "{0} : {1}".format(prop, getattr(self.desc_obj, prop))
